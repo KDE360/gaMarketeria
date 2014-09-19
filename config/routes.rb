@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   
   get 'about' => 'pages#about'
   get 'contact' => 'pages#contact'
-
+  get 'seller' => 'listings#seller'
   
 
   # The priority is based upon order of creation: first created -> highest priority.
